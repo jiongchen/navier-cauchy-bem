@@ -72,7 +72,8 @@ where $c_{ij}(x)$ depends on the local geometry (e.g., $c_{ij} =
 
 ## Discretization
 
-For simplicity, we discretize the BIE using piecewise constant
-elements, and enforce the equality at the barycenter of each element.
+For simplicity, we discretize the boundary data using **piecewise
+constant elements**, and evaluate the equation at the barycenter of
+each boundary element.
 
 ---
