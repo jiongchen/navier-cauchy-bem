@@ -24,7 +24,7 @@ boundary conditions are prescribed as:
 where $\sigma$ is the linear stress tensor, given by
 
 $$
-\sigma(u) = \mu(\nabla u + \nabla u^T) + \lambda (\nabla \cdot u)I$.
+\sigma(u) = \mu(\nabla u + \nabla u^T) + \lambda (\nabla \cdot u)I.
 $$
 
 ---
@@ -38,10 +38,10 @@ displacement at an interior point $x \in \Omega$ can be expressed
 entirely in terms of the boundary data:
 
 $$
-u_i(x) = \int_{\Gamma} U_{ij}(x,y) t_j(y)\, d\Gamma(y) - \int_{\Gamma} T_{ij}(x,y) u_j(y)\, d\Gamma(y), \quad x\in \Omega
+u_i(x) = \int_{\Gamma} U_{ij}(x,y) t_j(y) \mathrm{d}\Gamma(y) - \int_{\Gamma} T_{ij}(x,y) u_j(y) \mathrm{d}\Gamma(y), \quad x\in \Omega
 $$
 
-where $U_{ij}(x,y)$ is the fundamental (Kelvin )solution of linear
+where $U_{ij}(x,y)$ is the fundamental (Kelvin) solution of linear
 elasticity, $T_{ij}(x,y)$ is the traction kernel associated with
 $U_{ij}$, $u_j(y)$ is the boundary displacement, and $t_j(y) =
 \sigma(u)(y) n(y)$ is the boundary traction. This identity is also
@@ -59,8 +59,8 @@ Taking the limit as $x \to \Gamma$ yields the boundary integral
 equation to solve:
 
 $$
-c_{ij}(x) u_j(x) + \int_{\Gamma} T_{ij}(x,y) u_j(y)\, d\Gamma(y)
-= \int_{\Gamma} U_{ij}(x,y) t_j(y)\, d\Gamma(y), \quad x \in \Gamma
+c_{ij}(x) u_j(x) + \int_{\Gamma} T_{ij}(x,y) u_j(y) d\Gamma(y)
+= \int_{\Gamma} U_{ij}(x,y) t_j(y) d\Gamma(y), \quad x \in \Gamma
 $$
 
 where $c_{ij}(x)$ depends on the local geometry (e.g., $c_{ij} =
