@@ -1,0 +1,6 @@
+jax==0.5.1
+loguru==0.7.3
+matplotlib==3.10.6
+numpy==2.3.3
+scipy==1.16.2
+triangle==20250106
