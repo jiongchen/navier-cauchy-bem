@@ -55,12 +55,14 @@ deformation.
 
 ## Boundary Integral Equation (BIE)
 
-Taking the limit as $x \to \Gamma$ yields the boundary integral
-equation to solve:
+Considering the jump relation of the **double-layer potential** across
+the boundary, we arrive at the boundary integral equation to solve for
+the boundary traction $t$ on $\Gamma_D$ and displacement $u$ on
+$\Gamma_N$, through
 
 $$
-c_{ij}(x) u_j(x) + \int_{\Gamma} T_{ij}(x,y) u_j(y) d\Gamma(y)
-= \int_{\Gamma} U_{ij}(x,y) t_j(y) d\Gamma(y), \quad x \in \Gamma
+c_{ij}(x) u_j(x) + \int_{\Gamma} T_{ij}(x,y) u_j(y) \mathrm{d}\Gamma(y)
+= \int_{\Gamma} U_{ij}(x,y) t_j(y) \mathrm{d}\Gamma(y), \quad x \in \Gamma
 $$
 
 where $c_{ij}(x)$ depends on the local geometry (e.g., $c_{ij} =
