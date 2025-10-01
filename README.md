@@ -9,9 +9,9 @@ BEM. The implementation is based on JAX.
 ## Linear Elasticity
 In **linear elasticity**, the displacement field \( u(x) \in \mathbb{R}^d \) (with \(d = 2,3\)) satisfies:
 
-\[
+$$
 \nabla \cdot \sigma(u) + f = 0 \quad \text{in } \Omega
-\]
+$$
 
 where  
 
